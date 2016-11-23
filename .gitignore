@@ -1,0 +1,9 @@
+node_modules
+dist
+ng2-heroes.sublime-workspace
+
+# ignore content of the AOT folder
+aot/*
+# except for the index file and its server configuration
+!aot/browsersync.config.js
+!aot/index.html
